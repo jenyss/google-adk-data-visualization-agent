@@ -51,4 +51,29 @@ for event in runner.run(user_id=user_id, session_id=session.id, new_message=user
         else:
             print("No final text response was returned by the agent.")
 ```
+5. *Choose the LLM you want to use* — configuration happens during agent initialization:
+```
+llm = LiteLlm(
+    model="openai/gpt-4o",
+    temperature=0.0
+)
 
+root_agent = Agent(
+    name="data_agent",
+    model=llm, # You can pass a LiteLLM-wrapped model here
+    # Example options:
+    # model="gemini-2.0-flash-exp"
+    # model="gemini-2.5-pro-preview-03-25"
+    # model="gemini-2.5-pro-exp-03-25"
+    description=(
+        "Agent to answer data questions and create visualizations."
+    ),
+    instruction=(
+        """
+        You will be given a task to perform. You must follow these exact steps in order: ....
+        """
+    ),
+    tools=[preview_excel_structure, complex_duckdb_query, create_visualization],
+    output_key="last_agent_response",
+)
+```
