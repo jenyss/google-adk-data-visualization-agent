@@ -4,12 +4,13 @@ This project is a lightweight AI agent built using Google ADK that helps you ana
 
 If you have any questions or would like to collaborate, feel free to reach out to me on [LinkedIn](https://www.linkedin.com/in/jenya-stoeva-60477249/). You're more than welcome!
 
-## What it does
+## What It Does
 * Loads Excel data and previews the structure
 * Converts your natural language questions into DuckDB SQL queries
 * Generates interactive Plotly visualizations (bar, line, pie, scatter, sankey, etc.)
 * Powered by GPT-4o or Gemini, with multi-model support via LiteLLM
 * Ideal for exploratory data analysis, internal dashboards, and fast insights
 
-## How to
+## How-To
+TODO
 
