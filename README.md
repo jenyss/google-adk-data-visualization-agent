@@ -8,8 +8,8 @@ If you have any questions or would like to collaborate, feel free to reach out t
 * Loads Excel data and previews the structure.
 * Converts your natural language questions into DuckDB SQL queries.
 * Generates interactive Plotly visualizations (bar, line, pie, scatter, sankey, etc.).
-* Powered by GPT-4o or Gemini or Anthropic, with multi-model support via LiteLLM.
-* Ideal for exploratory data analysis, internal dashboards, and fast insights.
+* Powered by GPT-4o or Gemini or Claude, with multi-model support via LiteLLM.
+* Ideal for exploratory data analysis and fast insights.
 
 ## How-To
 To run the agent, follow these steps: 
