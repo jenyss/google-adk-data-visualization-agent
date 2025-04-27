@@ -2,6 +2,8 @@
 
 This project is a lightweight AI agent built with Google ADK that helps you analyze and visualize data from Excel files. It supports natural language queries like "Show me a bar chart of revenue by product" and handles everything from data preview to SQL querying and Plotly visualizations.
 
+❗❗❗ This is an older version of the agent and is no longer updated. Please check the [google-adk-voice-to-visualization-agent](https://github.com/jenyss/google-adk-voice-to-visualization-agent) instead.
+
 If you have any questions or would like to collaborate, feel free to reach out to me on [LinkedIn](https://www.linkedin.com/in/jenya-stoeva-60477249/). You're more than welcome!
 
 ## How It Works
